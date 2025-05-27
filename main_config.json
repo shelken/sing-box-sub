@@ -65,10 +65,6 @@
 				"server": "localDns"
 			},
 			{
-				"rule_set": "download-main",
-				"server": "proxyDns"
-			},
-			{
 				"clash_mode": "global",
 				"server": "proxyDns"
 			},
