@@ -1,0 +1,51 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "domain_suffix": [
+        "amazon.com.cn",
+        "amazonaws.com.cn",
+        "avbase.net",
+        "bochk.com",
+        "cn",
+        "gitee.io",
+        "hdslb.com",
+        "hsbc.com.hk",
+        "icloud.com.cn",
+        "ident.me",
+        "ip-api.com",
+        "ip.sb",
+        "ipapi.co",
+        "ipinfo.io",
+        "ipw.cn",
+        "ipwho.is",
+        "kelee.one",
+        "lan",
+        "local",
+        "myip.com",
+        "ocsp.digicert.com",
+        "ooooo.space",
+        "plex.direct",
+        "plex.tv",
+        "qwer-cn.top",
+        "steamserver.net",
+        "store.epicgames.com",
+        "za.group",
+        "zajourney.com"
+      ]
+    },
+    {
+      "domain": ["🎈.com"]
+    },
+    {
+      "domain_keyword": ["icloud"]
+    },
+    {
+      "process_name": ["parsecd", "tailscale", "tailscaled", "zerotier-one"]
+    },
+    {
+      "ip_cidr": ["2408:8000::/20", "2409:8000::/20", "240e::/18"],
+      "no_resolve": true
+    }
+  ]
+}
